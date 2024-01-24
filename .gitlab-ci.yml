@@ -58,4 +58,4 @@ mirror_to_github:
     - git config --global user.email "dkfls921@gmail.com"
     - git config --global user.name "lynne921"
     - git fetch origin
-    - git push --mirror "https://$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@github.com/SSAFY-10-A207/BonVoyage"
+    - git push --mirror "https://${GITHUB_PAT}@github.com/SSAFY-10-A207/BonVoyage"
